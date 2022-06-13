@@ -1,0 +1,55 @@
+{
+  "name": "rc-basic",
+  "version": "0.0.1",
+  "description": "😎 A react basic component library.",
+  "keywords": [
+    "react",
+    "react-component",
+    "rc-basic"
+  ],
+  "license": "MIT",
+  "author": "0x219",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "del dist && tsc -b",
+    "dev": "tsc -w",
+    "preinstall": "npx only-allow pnpm -y",
+    "prepare": "is-ci || husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "eslint",
+    "*.{js,ts,tsx,md,html,css,json}": "prettier --write",
+    "!(*pnpm-lock).yaml": "prettier --write",
+    "package.json": "pnpm sort-package-json"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.12",
+    "@types/react-dom": "18.0.5",
+    "@typescript-eslint/eslint-plugin": "5.27.1",
+    "@typescript-eslint/parser": "5.27.1",
+    "del-cli": "4.0.1",
+    "eslint": "8.17.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.30.0",
+    "husky": "8.0.1",
+    "is-ci": "3.0.1",
+    "lint-staged": "13.0.1",
+    "prettier": "2.6.2",
+    "prettier-plugin-packagejson": "2.2.18",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-polymorphic-types": "2.0.0",
+    "sort-package-json": "1.57.0",
+    "typescript": "4.7.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "react-polymorphic-types": "^2.0.0"
+  }
+}
