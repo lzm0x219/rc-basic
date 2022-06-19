@@ -1,4 +1,6 @@
 # RC Basic
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F0x219%2Frc-basic.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2F0x219%2Frc-basic?ref=badge_shield)
+
 
 😎 A react basic component library.
 
@@ -87,3 +89,7 @@ The `Show` control flow is used to conditional render part of the view: it rende
   {(user) => <div>{user.firstName}</div>}
 </Show>
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F0x219%2Frc-basic.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F0x219%2Frc-basic?ref=badge_large)
