@@ -7,6 +7,10 @@
     "react-component",
     "rc-basic"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x219/rc-basic"
+  },
   "license": "MIT",
   "author": "0x219",
   "main": "dist/index.js",
