@@ -1,6 +1,6 @@
 {
   "name": "rc-basic",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "😎 A react basic component library.",
   "keywords": [
     "react",
@@ -20,10 +20,15 @@
     "dist"
   ],
   "scripts": {
+    "prebuild": "pnpm clean",
     "build": "del dist && tsc -b",
     "dev": "tsc -w",
     "preinstall": "npx only-allow pnpm -y",
-    "prepare": "is-ci || husky install"
+    "prepare": "is-ci || husky install",
+    "release": "release-it",
+    "release:ci": "release-it --ci",
+    "preversion": "pnpm build",
+    "postversion": "git push --follow-tags"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint",
@@ -51,6 +56,7 @@
     "prettier-plugin-packagejson": "2.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "release-it": "15.4.3",
     "sort-package-json": "2.0.0",
     "typescript": "4.8.4"
   },
@@ -70,6 +76,11 @@
     },
     "react-polymorphic-types": {
       "optional": true
+    }
+  },
+  "release-it": {
+    "github": {
+      "release": true
     }
   }
 }
