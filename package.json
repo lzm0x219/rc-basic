@@ -33,8 +33,8 @@
   "devDependencies": {
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
-    "@typescript-eslint/eslint-plugin": "5.36.1",
-    "@typescript-eslint/parser": "5.36.1",
+    "@typescript-eslint/eslint-plugin": "5.38.1",
+    "@typescript-eslint/parser": "5.38.1",
     "del-cli": "5.0.0",
     "eslint": "8.24.0",
     "eslint-config-prettier": "8.5.0",
