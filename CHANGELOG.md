@@ -19,6 +19,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] (2022-10-03)
+
+### ✨ Feature
+
+- Added type export for `react-polymorphic-types`.
+- Added the type of this package as module.
+
+### 🚧 Maintenance
+
+- Updated package repository url.
+
+### 📦 Dependencies
+
+- Updated typescript-eslint monorepo to v5.38.1.
+- Updated dependency typescript to v4.8.4.
+- Updated dependency eslint-plugin-react to v7.31.8.
+- Updated dependency @types/react to v18.0.21.
+- Updated dependency eslint to v8.24.0.
+- Updated dependency prettier-plugin-packagejson to v2.3.0.
+- Updated dependency sort-package-json to v2.
+
 ## [0.0.1] (2022-06-13)
 
 ### ✨ Feature
@@ -27,5 +48,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `<For>` component.
 - Add `<Show>` component.
 
-[unreleased]: https://github.com/0x219/rc-basic/compare/v0.0.1...HEAD
-[0.0.1]: https://github.com/0x219/rc-basic/releases/tag/v0.0.1
+[unreleased]: https://github.com/lzm0x219/rc-basic/compare/v1.0.1...HEAD
+[1.0.0]: https://github.com/lzm0x219/rc-basic/compare/v0.0.1...1.0.0
+[0.0.1]: https://github.com/lzm0x219/rc-basic/releases/tag/v0.0.1
