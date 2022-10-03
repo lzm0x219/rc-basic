@@ -17,16 +17,14 @@
 
 ## Usage
 
-First need to install peerDependencies:
+Install this library:
 
 ```bash
-npm install react-polymorphic-types -D
-```
-
-then install this library:
-
-```bash
+# npm
 npm install rc-basic
+
+# pnpm
+pnpm add rc-basic
 ```
 
 ## Components
@@ -91,10 +89,14 @@ The `Show` control flow is used to conditional render part of the view: it rende
 </Show>
 ```
 
-## Project Activity
+## Changelog
 
-![Project Activity](https://repobeats.axiom.co/api/embed/a405fc1e732aba9b918377aeec45ee0661fb482c.svg)
+Detailed changes for each release are documented in the [CHANGELOG](https://github.com/lzm0x219/rc-basic/blob/main/CHANGELOG.md).
 
 ## License
+
+[MIT](https://github.com/lzm0x219/rc-basic/blob/main/LICENSE)
+
+Copyright (c) 2022-present, ZiMing(Simon) Liu
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F0x219%2Frc-basic.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F0x219%2Frc-basic?ref=badge_large)
