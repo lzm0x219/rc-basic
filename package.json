@@ -9,10 +9,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/0x219/rc-basic"
+    "url": "https://github.com/lzm0x219/rc-basic"
   },
   "license": "MIT",
-  "author": "0x219",
+  "author": "lzm0x219",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -29,6 +30,9 @@
     "*.{js,ts,tsx,md,html,css,json}": "prettier --write",
     "!(*pnpm-lock).yaml": "prettier --write",
     "package.json": "pnpm sort-package-json"
+  },
+  "dependencies": {
+    "react-polymorphic-types": "2.0.0"
   },
   "devDependencies": {
     "@types/react": "18.0.21",
@@ -47,13 +51,25 @@
     "prettier-plugin-packagejson": "2.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-polymorphic-types": "2.0.0",
     "sort-package-json": "2.0.0",
     "typescript": "4.8.4"
   },
   "peerDependencies": {
+    "@types/react": "18.x",
+    "@types/react-dom": "18.x",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
     "react-polymorphic-types": "^2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    },
+    "@types/react-dom": {
+      "optional": true
+    },
+    "react-polymorphic-types": {
+      "optional": true
+    }
   }
 }
