@@ -19,6 +19,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] (2022-10-04)
+
+### 🚧 Maintenance
+
+- Added export method for compatible build tools.
+
 ## [1.0.1] (2022-10-04)
 
 ### 🐛 Bugfix
@@ -59,7 +65,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `<For>` component.
 - Add `<Show>` component.
 
-[unreleased]: https://github.com/lzm0x219/rc-basic/compare/v1.0.1...HEAD
+[unreleased]: https://github.com/lzm0x219/rc-basic/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/lzm0x219/rc-basic/compare/1.0.1...v1.0.2
 [1.0.1]: https://github.com/lzm0x219/rc-basic/compare/1.0.0...v1.0.1
 [1.0.0]: https://github.com/lzm0x219/rc-basic/compare/v0.0.1...1.0.0
 [0.0.1]: https://github.com/lzm0x219/rc-basic/releases/tag/v0.0.1
