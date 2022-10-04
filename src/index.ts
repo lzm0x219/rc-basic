@@ -2,4 +2,10 @@ export * from "./Box.js";
 export * from "./For.js";
 export * from "./Show.js";
 
-export * from "react-polymorphic-types";
+export type {
+  PolymorphicForwardRefExoticComponent,
+  PolymorphicLazyExoticComponent,
+  PolymorphicMemoExoticComponent,
+  PolymorphicPropsWithRef,
+  PolymorphicPropsWithoutRef,
+} from "react-polymorphic-types";

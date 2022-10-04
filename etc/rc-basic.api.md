@@ -5,8 +5,11 @@
 ```ts
 /// <reference types="react" />
 
-import type { PolymorphicForwardRefExoticComponent } from "react-polymorphic-types";
-import type { PolymorphicPropsWithRef } from "react-polymorphic-types";
+import { PolymorphicForwardRefExoticComponent } from "react-polymorphic-types";
+import { PolymorphicLazyExoticComponent } from "react-polymorphic-types";
+import { PolymorphicMemoExoticComponent } from "react-polymorphic-types";
+import { PolymorphicPropsWithoutRef } from "react-polymorphic-types";
+import { PolymorphicPropsWithRef } from "react-polymorphic-types";
 
 // @public (undocumented)
 export const Box: PolymorphicForwardRefExoticComponent<
@@ -40,6 +43,16 @@ export interface ForProps<T> {
   fallback?: React.ReactNode;
 }
 
+export { PolymorphicForwardRefExoticComponent };
+
+export { PolymorphicLazyExoticComponent };
+
+export { PolymorphicMemoExoticComponent };
+
+export { PolymorphicPropsWithoutRef };
+
+export { PolymorphicPropsWithRef };
+
 // @public (undocumented)
 export function Show<T>({
   when,
@@ -59,8 +72,6 @@ export interface ShowProps<T> {
   // (undocumented)
   when: T | undefined | null | false;
 }
-
-export * from "react-polymorphic-types";
 
 // (No @packageDocumentation comment for this package)
 ```
