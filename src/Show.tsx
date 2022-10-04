@@ -1,3 +1,6 @@
+/**
+ * @public
+ */
 export interface ShowProps<T> {
   when: T | undefined | null | false;
   fallback?: React.ReactNode;
@@ -5,6 +8,9 @@ export interface ShowProps<T> {
   children?: React.ReactNode | ((props: T) => JSX.Element);
 }
 
+/**
+ * @public
+ */
 export function Show<T>({ when, fallback, element, children }: ShowProps<T>) {
   if (when && typeof children === "function") {
     return children(when);

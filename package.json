@@ -17,11 +17,13 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "typings"
   ],
   "scripts": {
     "prebuild": "pnpm clean",
-    "build": "del dist && tsc -b",
+    "build": "del dist && tsc --project ./tsconfig.build.json && pnpm api-extractor run --local --verbose",
     "dev": "tsc -w",
     "preinstall": "npx only-allow pnpm -y",
     "prepare": "is-ci || husky install",
@@ -40,6 +42,7 @@
     "react-polymorphic-types": "2.0.0"
   },
   "devDependencies": {
+    "@microsoft/api-extractor": "7.32.0",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.39.0",

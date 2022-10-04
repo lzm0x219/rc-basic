@@ -5,15 +5,27 @@ import type {
   PolymorphicPropsWithRef,
 } from "react-polymorphic-types";
 
-const defaultElement = "div";
+/**
+ * @public
+ */
+export const defaultElement = "div";
 
+/**
+ * @public
+ */
 export interface BoxOwnProps {
   className?: string;
 }
 
+/**
+ * @public
+ */
 export type BoxProps<T extends React.ElementType = typeof defaultElement> =
   PolymorphicPropsWithRef<BoxOwnProps, T>;
 
+/**
+ * @public
+ */
 export const Box: PolymorphicForwardRefExoticComponent<
   BoxOwnProps,
   typeof defaultElement
