@@ -1,5 +1,5 @@
-export * from "./Box";
-export * from "./For";
-export * from "./Show";
+export * from "./Box.js";
+export * from "./For.js";
+export * from "./Show.js";
 
 export * from "react-polymorphic-types";
