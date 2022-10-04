@@ -19,6 +19,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] (2022-10-04)
+
+### 🐛 Bugfix
+
+- Fixed the import export method in module mode.
+
+### 📦 Dependencies
+
+- Updated typescript-eslint monorepo to v5.39.0.
+- Added @microsoft/api-extractor@7.32.0.
+
 ## [1.0.0] (2022-10-03)
 
 ### ✨ Feature
