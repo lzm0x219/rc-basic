@@ -42,7 +42,7 @@
     "react-polymorphic-types": "2.0.0"
   },
   "devDependencies": {
-    "@microsoft/api-extractor": "7.32.0",
+    "@microsoft/api-extractor": "7.32.1",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.39.0",
