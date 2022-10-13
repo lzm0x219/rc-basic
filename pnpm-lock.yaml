@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@microsoft/api-extractor': 7.33.0
+  '@microsoft/api-extractor': 7.33.1
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.40.0
@@ -27,7 +27,7 @@ dependencies:
   react-polymorphic-types: 2.0.0_@types+react@18.0.21
 
 devDependencies:
-  '@microsoft/api-extractor': 7.33.0
+  '@microsoft/api-extractor': 7.33.1
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.40.0_25sstg4uu2sk4pm7xcyzuov7xq
@@ -112,22 +112,22 @@ packages:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
     dev: true
 
-  /@microsoft/api-extractor-model/7.25.0:
-    resolution: {integrity: sha512-iGZrBui+7Sde7Rk8vsfnBSIilJ48wiGNxReb4N1ij8OrWCtjSB8fSVkOxL9oR6El7KowrZN51T8SdTzysLAelQ==}
+  /@microsoft/api-extractor-model/7.25.1:
+    resolution: {integrity: sha512-AaZ0ohCGLRjWiZviM+0p/DaxgMhbawS183LW2+CSqyEBh6wZks7NjoyhzhibAYapS4omnrmv96+0V/2wBvnIZQ==}
     dependencies:
       '@microsoft/tsdoc': 0.14.1
       '@microsoft/tsdoc-config': 0.16.2
-      '@rushstack/node-core-library': 3.53.1
+      '@rushstack/node-core-library': 3.53.2
     dev: true
 
-  /@microsoft/api-extractor/7.33.0:
-    resolution: {integrity: sha512-yf0Kzn1o6fQf/xwwkmOZAXHFbj3q1xvmqvTVltO5lDnESh9Nv5KIaALryxcuf8tbytP2auQmd3C7+Zx5SbmZHg==}
+  /@microsoft/api-extractor/7.33.1:
+    resolution: {integrity: sha512-FwhBbG4RlV2CqEsps2acIVCZz0evSDwotaJGwPhBvAKMYI9xm0pk2Jpuq6tTn2Xtjg4vPXH7bzJ2dPGl3FzgzQ==}
     hasBin: true
     dependencies:
-      '@microsoft/api-extractor-model': 7.25.0
+      '@microsoft/api-extractor-model': 7.25.1
       '@microsoft/tsdoc': 0.14.1
       '@microsoft/tsdoc-config': 0.16.2
-      '@rushstack/node-core-library': 3.53.1
+      '@rushstack/node-core-library': 3.53.2
       '@rushstack/rig-package': 0.3.17
       '@rushstack/ts-command-line': 4.12.5
       colors: 1.2.5
@@ -307,8 +307,8 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rushstack/node-core-library/3.53.1:
-    resolution: {integrity: sha512-hBpZmYNoyayl5H/SW7qLMIgylZvrf0BHKVA27gX43C7HB6e3AFNKGnj2dN/qKBXCwdhxw9OFYM+Gz5sqT3xeMw==}
+  /@rushstack/node-core-library/3.53.2:
+    resolution: {integrity: sha512-FggLe5DQs0X9MNFeJN3/EXwb+8hyZUTEp2i+V1e8r4Va4JgkjBNY0BuEaQI+3DW6S4apV3UtXU3im17MSY00DA==}
     dependencies:
       '@types/node': 12.20.24
       colors: 1.2.5
