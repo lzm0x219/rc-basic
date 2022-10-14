@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@microsoft/api-extractor': 7.33.1
+  '@microsoft/api-extractor': 7.33.2
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.40.0
@@ -27,7 +27,7 @@ dependencies:
   react-polymorphic-types: 2.0.0_@types+react@18.0.21
 
 devDependencies:
-  '@microsoft/api-extractor': 7.33.1
+  '@microsoft/api-extractor': 7.33.2
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.40.0_25sstg4uu2sk4pm7xcyzuov7xq
@@ -120,8 +120,8 @@ packages:
       '@rushstack/node-core-library': 3.53.2
     dev: true
 
-  /@microsoft/api-extractor/7.33.1:
-    resolution: {integrity: sha512-FwhBbG4RlV2CqEsps2acIVCZz0evSDwotaJGwPhBvAKMYI9xm0pk2Jpuq6tTn2Xtjg4vPXH7bzJ2dPGl3FzgzQ==}
+  /@microsoft/api-extractor/7.33.2:
+    resolution: {integrity: sha512-OTCOtpQgvvRnxyCAHCPEDXVyJXrj54sGNCltOQaaT1wkTUPmRYo/I8yrCGXiBPUIHOpV3lUnaDJkzQF9dtbNWA==}
     hasBin: true
     dependencies:
       '@microsoft/api-extractor-model': 7.25.1
