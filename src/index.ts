@@ -1,6 +1,8 @@
-export * from "./Box.js";
-export * from "./For.js";
-export * from "./Show.js";
+export { version } from "../package.json";
+
+export * from "./Box";
+export * from "./For";
+export * from "./Show";
 
 export type {
   PolymorphicForwardRefExoticComponent,
