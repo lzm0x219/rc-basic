@@ -19,6 +19,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] (2022-11-23)
+
+### ✨ Feature
+
+- Added umd style files output.
+
+### 📦 Dependencies
+
+- Remove eslint-related dependencies and switch to rome.
+
 ## [1.0.2] (2022-10-04)
 
 ### 🚧 Maintenance
