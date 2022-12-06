@@ -58,7 +58,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-polymorphic-types": "2.0.0",
-    "rome": "10.0.1",
+    "rome": "11.0.0",
     "sort-package-json": "2.1.0",
     "typescript": "4.9.3"
   },
