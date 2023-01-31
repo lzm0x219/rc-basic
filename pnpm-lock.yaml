@@ -8,7 +8,7 @@ specifiers:
   husky: 8.0.3
   is-ci: 3.0.1
   lint-staged: 13.1.0
-  prettier: 2.8.2
+  prettier: 2.8.3
   prettier-plugin-packagejson: 2.3.0
   react: 18.2.0
   react-dom: 18.2.0
@@ -25,8 +25,8 @@ devDependencies:
   husky: 8.0.3
   is-ci: 3.0.1
   lint-staged: 13.1.0
-  prettier: 2.8.2
-  prettier-plugin-packagejson: 2.3.0_prettier@2.8.2
+  prettier: 2.8.3
+  prettier-plugin-packagejson: 2.3.0_prettier@2.8.3
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-polymorphic-types: 2.0.0_@types+react@18.0.26
@@ -3910,7 +3910,7 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier-plugin-packagejson/2.3.0_prettier@2.8.2:
+  /prettier-plugin-packagejson/2.3.0_prettier@2.8.3:
     resolution: {integrity: sha512-2SAPMMk1UDkqsB7DifWKcwCm6VC52JXMrzLHfbcQHJRWhRCj9zziOy+s+2XOyPBeyqFqS+A/1IKzOrxKFTo6pw==}
     peerDependencies:
       prettier: '>= 1.16.0'
@@ -3918,12 +3918,12 @@ packages:
       prettier:
         optional: true
     dependencies:
-      prettier: 2.8.2
+      prettier: 2.8.3
       sort-package-json: 1.57.0
     dev: true
 
-  /prettier/2.8.2:
-    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
+  /prettier/2.8.3:
+    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
