@@ -15,8 +15,8 @@ devDependencies:
     specifier: 18.2.4
     version: 18.2.4
   father:
-    specifier: 4.2.2
-    version: 4.2.2(styled-components@5.3.9)
+    specifier: 4.2.3
+    version: 4.2.3(styled-components@5.3.9)
   husky:
     specifier: 8.0.3
     version: 8.0.3
@@ -2301,8 +2301,8 @@ packages:
       reusify: 1.0.4
     dev: true
 
-  /father@4.2.2(styled-components@5.3.9):
-    resolution: {integrity: sha512-1nH1HurEM/+A2LO/KJ7LsDLkVw7SABEPg7fD0y3Nrnl6OXUAv9vin1w6qPT8aU6NepXAUf0bBhq9tkrUUrjl3Q==}
+  /father@4.2.3(styled-components@5.3.9):
+    resolution: {integrity: sha512-noRg6QGQ0+b7sdzjo6Re1TfqGpmF4hhcxjyLgr6NK4JoroW2ENXb0ewpOW3p2+7a67ltiBn/S4gYHXs9ptSrvQ==}
     hasBin: true
     dependencies:
       '@microsoft/api-extractor': 7.34.3
