@@ -49,7 +49,7 @@
     "@babel/preset-react": "7.22.5",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
-    "father": "4.2.3",
+    "father": "4.3.7",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
     "lint-staged": "13.2.3",
