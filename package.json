@@ -46,7 +46,7 @@
     "package.json": "pnpm sort-package-json"
   },
   "devDependencies": {
-    "@babel/preset-react": "7.22.5",
+    "@babel/preset-react": "7.23.3",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "father": "4.2.3",
