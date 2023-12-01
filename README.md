@@ -41,7 +41,7 @@ pnpm add rc-basic
 <Box as="h3">h3</Box>
 ```
 
-For more usage, please see [react-polymorphic-types](https://github.com/kripod/react-polymorphic-types).
+For more usage, please see [react-polymorphed](https://github.com/nasheomirro/react-polymorphed).
 
 ---
 
