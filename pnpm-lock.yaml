@@ -12,8 +12,8 @@ devDependencies:
     specifier: 1.5.3
     version: 1.5.3
   '@types/react':
-    specifier: 18.2.56
-    version: 18.2.56
+    specifier: 18.2.57
+    version: 18.2.57
   '@types/react-dom':
     specifier: 18.2.19
     version: 18.2.19
@@ -37,7 +37,7 @@ devDependencies:
     version: 18.2.0(react@18.2.0)
   react-polymorphed:
     specifier: 2.2.2
-    version: 2.2.2(@types/react@18.2.56)
+    version: 2.2.2(@types/react@18.2.57)
   sort-package-json:
     specifier: 2.7.0
     version: 2.7.0
@@ -1113,11 +1113,11 @@ packages:
   /@types/react-dom@18.2.19:
     resolution: {integrity: sha512-aZvQL6uUbIJpjZk4U8JZGbau9KDeAwMfmhyWorxgBkqDIEf6ROjRozcmPIicqsUwPUjbkDfHKgGee1Lq65APcA==}
     dependencies:
-      '@types/react': 18.2.56
+      '@types/react': 18.2.57
     dev: true
 
-  /@types/react@18.2.56:
-    resolution: {integrity: sha512-NpwHDMkS/EFZF2dONFQHgkPRwhvgq/OAvIaGQzxGSBmaeR++kTg6njr15Vatz0/2VcCEwJQFi6Jf4Q0qBu0rLA==}
+  /@types/react@18.2.57:
+    resolution: {integrity: sha512-ZvQsktJgSYrQiMirAN60y4O/LRevIV8hUzSOSNB6gfR3/o3wCBFQx3sPwIYtuDMeiVgsSS3UzCV26tEzgnfvQw==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -4312,12 +4312,12 @@ packages:
     resolution: {integrity: sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==}
     dev: true
 
-  /react-polymorphed@2.2.2(@types/react@18.2.56):
+  /react-polymorphed@2.2.2(@types/react@18.2.57):
     resolution: {integrity: sha512-8pv0VvOHITcmGs+E/FNAuE+4IZpIaKEThCJsvmp+NC54Lq5YbjHtPX0Af6H6MazhEQ7WQyJBt6b6aY+7WUytJw==}
     peerDependencies:
       '@types/react': '>=16.8'
     dependencies:
-      '@types/react': 18.2.56
+      '@types/react': 18.2.57
     dev: true
 
   /react-refresh@0.14.0:
