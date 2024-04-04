@@ -55,7 +55,7 @@
     "react-dom": "18.2.0",
     "react-polymorphed": "2.2.2",
     "sort-package-json": "2.10.0",
-    "typescript": "5.4.3"
+    "typescript": "5.4.4"
   },
   "peerDependencies": {
     "@types/react": "18.x",
