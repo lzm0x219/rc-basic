@@ -12,11 +12,11 @@ devDependencies:
     specifier: 1.6.4
     version: 1.6.4
   '@types/react':
-    specifier: 18.2.75
-    version: 18.2.75
+    specifier: 18.2.76
+    version: 18.2.76
   '@types/react-dom':
-    specifier: 18.2.24
-    version: 18.2.24
+    specifier: 18.2.25
+    version: 18.2.25
   father:
     specifier: 4.4.0
     version: 4.4.0(@babel/core@7.23.5)(styled-components@6.1.8)(webpack@5.89.0)
@@ -37,7 +37,7 @@ devDependencies:
     version: 18.2.0(react@18.2.0)
   react-polymorphed:
     specifier: 2.2.2
-    version: 2.2.2(@types/react@18.2.75)
+    version: 2.2.2(@types/react@18.2.76)
   sort-package-json:
     specifier: 2.10.0
     version: 2.10.0
@@ -1110,14 +1110,14 @@ packages:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
     dev: true
 
-  /@types/react-dom@18.2.24:
-    resolution: {integrity: sha512-cN6upcKd8zkGy4HU9F1+/s98Hrp6D4MOcippK4PoE8OZRngohHZpbJn1GsaDLz87MqvHNoT13nHvNqM9ocRHZg==}
+  /@types/react-dom@18.2.25:
+    resolution: {integrity: sha512-o/V48vf4MQh7juIKZU2QGDfli6p1+OOi5oXx36Hffpc9adsHeXjVp8rHuPkjd8VT8sOJ2Zp05HR7CdpGTIUFUA==}
     dependencies:
-      '@types/react': 18.2.75
+      '@types/react': 18.2.76
     dev: true
 
-  /@types/react@18.2.75:
-    resolution: {integrity: sha512-+DNnF7yc5y0bHkBTiLKqXFe+L4B3nvOphiMY3tuA5X10esmjqk7smyBZzbGTy2vsiy/Bnzj8yFIBL8xhRacoOg==}
+  /@types/react@18.2.76:
+    resolution: {integrity: sha512-T6z/v7YxpswDM61Vq5KoSPTJqCkroJfsDIsvXCr4+qOY6gik5Ju4w0jf67cpC5z7ydOnp/E0V0W08pDRy8u9Xw==}
     dependencies:
       '@types/prop-types': 15.7.11
       csstype: 3.1.2
@@ -4307,12 +4307,12 @@ packages:
     resolution: {integrity: sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==}
     dev: true
 
-  /react-polymorphed@2.2.2(@types/react@18.2.75):
+  /react-polymorphed@2.2.2(@types/react@18.2.76):
     resolution: {integrity: sha512-8pv0VvOHITcmGs+E/FNAuE+4IZpIaKEThCJsvmp+NC54Lq5YbjHtPX0Af6H6MazhEQ7WQyJBt6b6aY+7WUytJw==}
     peerDependencies:
       '@types/react': '>=16.8'
     dependencies:
-      '@types/react': 18.2.75
+      '@types/react': 18.2.76
     dev: true
 
   /react-refresh@0.14.0:
