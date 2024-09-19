@@ -15,8 +15,8 @@ importers:
         specifier: 1.9.2
         version: 1.9.2
       '@types/react':
-        specifier: 18.3.7
-        version: 18.3.7
+        specifier: 18.3.8
+        version: 18.3.8
       '@types/react-dom':
         specifier: 18.3.0
         version: 18.3.0
@@ -40,7 +40,7 @@ importers:
         version: 18.3.1(react@18.3.1)
       react-polymorphed:
         specifier: 2.2.2
-        version: 2.2.2(@types/react@18.3.7)
+        version: 2.2.2(@types/react@18.3.8)
       sort-package-json:
         specifier: 2.10.1
         version: 2.10.1
@@ -778,8 +778,8 @@ packages:
   '@types/react-dom@18.3.0':
     resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
 
-  '@types/react@18.3.7':
-    resolution: {integrity: sha512-KUnDCJF5+AiZd8owLIeVHqmW9yM4sqmDVf2JRJiBMFkGvkoZ4/WyV2lL4zVsoinmRS/W3FeEdZLEWFRofnT2FQ==}
+  '@types/react@18.3.8':
+    resolution: {integrity: sha512-syBUrW3/XpnW4WJ41Pft+I+aPoDVbrBVQGEnbD7NijDGlVC+8gV/XKRY+7vMDlfPpbwYt0l1vd/Sj8bJGMbs9Q==}
 
   '@types/stylis@4.2.0':
     resolution: {integrity: sha512-n4sx2bqL0mW1tvDf/loQ+aMX7GQD3lc3fkCMC55VFNDu/vBOabO+LTIeXKM14xK0ppk5TUGcWRjiSpIlUpghKw==}
@@ -3637,9 +3637,9 @@ snapshots:
 
   '@types/react-dom@18.3.0':
     dependencies:
-      '@types/react': 18.3.7
+      '@types/react': 18.3.8
 
-  '@types/react@18.3.7':
+  '@types/react@18.3.8':
     dependencies:
       '@types/prop-types': 15.7.11
       csstype: 3.1.2
@@ -5636,9 +5636,9 @@ snapshots:
 
   react-error-overlay@6.0.9: {}
 
-  react-polymorphed@2.2.2(@types/react@18.3.7):
+  react-polymorphed@2.2.2(@types/react@18.3.8):
     dependencies:
-      '@types/react': 18.3.7
+      '@types/react': 18.3.8
 
   react-refresh@0.14.0: {}
 
