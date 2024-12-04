@@ -43,7 +43,7 @@
     "package.json": "pnpm sort-package-json"
   },
   "devDependencies": {
-    "@babel/preset-react": "7.25.9",
+    "@babel/preset-react": "7.26.3",
     "@biomejs/biome": "1.9.4",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
