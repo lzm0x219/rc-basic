@@ -15,11 +15,11 @@ importers:
         specifier: 1.9.4
         version: 1.9.4
       '@types/react':
-        specifier: 18.3.14
-        version: 18.3.14
+        specifier: 18.3.15
+        version: 18.3.15
       '@types/react-dom':
-        specifier: 18.3.3
-        version: 18.3.3(@types/react@18.3.14)
+        specifier: 18.3.4
+        version: 18.3.4(@types/react@18.3.15)
       father:
         specifier: 4.5.1
         version: 4.5.1(@babel/core@7.23.5)(@types/node@20.10.1)(styled-components@6.1.8(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(type-fest@3.13.1)(webpack@5.89.0)
@@ -40,7 +40,7 @@ importers:
         version: 19.0.0(react@19.0.0)
       react-polymorphed:
         specifier: 2.2.2
-        version: 2.2.2(@types/react@18.3.14)
+        version: 2.2.2(@types/react@18.3.15)
       sort-package-json:
         specifier: 2.12.0
         version: 2.12.0
@@ -767,13 +767,13 @@ packages:
   '@types/prop-types@15.7.11':
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
 
-  '@types/react-dom@18.3.3':
-    resolution: {integrity: sha512-uTYkxTLkYp41nq/ULXyXMtkNT1vu5fXJoqad6uTNCOGat5t9cLgF4vMNLBXsTOXpdOI44XzKPY1M5RRm0bQHuw==}
+  '@types/react-dom@18.3.4':
+    resolution: {integrity: sha512-HMqjZ3RJxmfoOn3sVc0T0fO6qSrLDnUQYB+azHKdBBz1eOt0Sq4wUu2Sf1/Dt18gqhECg0fZ33tkh/6YdwrSCw==}
     peerDependencies:
       '@types/react': ^18.0.0
 
-  '@types/react@18.3.14':
-    resolution: {integrity: sha512-NzahNKvjNhVjuPBQ+2G7WlxstQ+47kXZNHlUvFakDViuIEfGY926GqhMueQFZ7woG+sPiQKlF36XfrIUVSUfFg==}
+  '@types/react@18.3.15':
+    resolution: {integrity: sha512-XQzbwkCwrsabawgWsvDDwsDTRuH1sf6Uj1fnFYoG03ZXfT54/aBvlylKR9ix70pXAtTn8dFzj358zVcZN4m83w==}
 
   '@types/stylis@4.2.0':
     resolution: {integrity: sha512-n4sx2bqL0mW1tvDf/loQ+aMX7GQD3lc3fkCMC55VFNDu/vBOabO+LTIeXKM14xK0ppk5TUGcWRjiSpIlUpghKw==}
@@ -3617,11 +3617,11 @@ snapshots:
 
   '@types/prop-types@15.7.11': {}
 
-  '@types/react-dom@18.3.3(@types/react@18.3.14)':
+  '@types/react-dom@18.3.4(@types/react@18.3.15)':
     dependencies:
-      '@types/react': 18.3.14
+      '@types/react': 18.3.15
 
-  '@types/react@18.3.14':
+  '@types/react@18.3.15':
     dependencies:
       '@types/prop-types': 15.7.11
       csstype: 3.1.2
@@ -5600,9 +5600,9 @@ snapshots:
 
   react-error-overlay@6.0.9: {}
 
-  react-polymorphed@2.2.2(@types/react@18.3.14):
+  react-polymorphed@2.2.2(@types/react@18.3.15):
     dependencies:
-      '@types/react': 18.3.14
+      '@types/react': 18.3.15
 
   react-refresh@0.14.0: {}
 
