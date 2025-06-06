@@ -21,8 +21,8 @@ importers:
         specifier: 19.1.6
         version: 19.1.6(@types/react@19.1.6)
       father:
-        specifier: 4.5.5
-        version: 4.5.5(@babel/core@7.23.5)(@types/node@20.10.1)(styled-components@6.1.8(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(type-fest@3.13.1)(webpack@5.89.0)
+        specifier: 4.5.6
+        version: 4.5.6(@babel/core@7.23.5)(@types/node@20.10.1)(styled-components@6.1.8(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(type-fest@3.13.1)(webpack@5.89.0)
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -1423,8 +1423,8 @@ packages:
   fastq@1.15.0:
     resolution: {integrity: sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==}
 
-  father@4.5.5:
-    resolution: {integrity: sha512-Ak3PUSwTkSdYfBsNQevhFLCnCyUkaD68F1DOfGpnk9yltBq+Sx7MgFttd8RG2XGMiwxG3Np5ey/iTFcNyZnMfg==}
+  father@4.5.6:
+    resolution: {integrity: sha512-o/GRqxKrnd8b/BHvqqqCTq9ZN+9caO56EX1RvSoDSHlSgV5JiDdE+Uyu1GYaNSK0409yMgHsXjZlnJeFIwYzCg==}
     hasBin: true
 
   fdir@6.4.3:
@@ -2805,9 +2805,6 @@ packages:
   util@0.11.1:
     resolution: {integrity: sha512-HShAsny+zS2TZfaXxD9tYj4HQGlBezXZMZuM/S5PKLLoZkShZiGk9o5CzukI1LVHZvjdvZ2Sj1aW/Ndn2NB/HQ==}
 
-  v8-compile-cache@2.3.0:
-    resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
-
   validator@13.15.0:
     resolution: {integrity: sha512-36B2ryl4+oL5QxZ3AzD0t5SsMNGvTtQHpjgFO5tbNxfXbMFkY822ktCDe1MnlqV3301QQI9SLHDNJokDI+Z9pA==}
     engines: {node: '>= 0.10'}
@@ -2917,7 +2914,7 @@ snapshots:
       '@babel/traverse': 7.27.1
       '@babel/types': 7.27.1
       convert-source-map: 2.0.0
-      debug: 4.4.0
+      debug: 4.4.1
       gensync: 1.0.0-beta.2
       json5: 2.2.3
       semver: 6.3.1
@@ -4401,7 +4398,7 @@ snapshots:
     dependencies:
       reusify: 1.0.4
 
-  father@4.5.5(@babel/core@7.23.5)(@types/node@20.10.1)(styled-components@6.1.8(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(type-fest@3.13.1)(webpack@5.89.0):
+  father@4.5.6(@babel/core@7.23.5)(@types/node@20.10.1)(styled-components@6.1.8(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(type-fest@3.13.1)(webpack@5.89.0):
     dependencies:
       '@microsoft/api-extractor': 7.43.7(@types/node@20.10.1)
       '@umijs/babel-preset-umi': 4.4.11
@@ -4425,7 +4422,6 @@ snapshots:
       tsconfig-paths: 4.0.0
       typescript: 5.4.2
       typescript-transform-paths: 3.4.7(typescript@5.4.2)
-      v8-compile-cache: 2.3.0
     transitivePeerDependencies:
       - '@babel/core'
       - '@types/node'
@@ -5652,7 +5648,7 @@ snapshots:
 
   spdy-transport@3.0.0:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       detect-node: 2.1.0
       hpack.js: 2.1.6
       obuf: 1.1.2
@@ -5663,7 +5659,7 @@ snapshots:
 
   spdy@4.0.2:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.1
       handle-thing: 2.0.1
       http-deceiver: 1.2.7
       select-hose: 2.0.0
@@ -5903,8 +5899,6 @@ snapshots:
   util@0.11.1:
     dependencies:
       inherits: 2.0.3
-
-  v8-compile-cache@2.3.0: {}
 
   validator@13.15.0: {}
 
