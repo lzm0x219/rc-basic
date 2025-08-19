@@ -47,7 +47,7 @@
     "@biomejs/biome": "2.2.0",
     "@types/react": "19.1.10",
     "@types/react-dom": "19.1.7",
-    "father": "4.6.2",
+    "father": "4.6.3",
     "husky": "9.1.7",
     "is-ci": "4.1.0",
     "lint-staged": "16.1.5",
