@@ -15,11 +15,11 @@ importers:
         specifier: 2.2.4
         version: 2.2.4
       '@types/react':
-        specifier: 19.1.14
-        version: 19.1.14
+        specifier: 19.1.15
+        version: 19.1.15
       '@types/react-dom':
         specifier: 19.1.9
-        version: 19.1.9(@types/react@19.1.14)
+        version: 19.1.9(@types/react@19.1.15)
       father:
         specifier: 4.6.6
         version: 4.6.6(@babel/core@7.23.5)(@types/node@20.10.1)(@types/webpack@5.28.5)(styled-components@6.1.8(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(type-fest@3.13.1)(webpack@5.89.0)
@@ -40,7 +40,7 @@ importers:
         version: 19.1.1(react@19.1.1)
       react-polymorphed:
         specifier: 2.2.2
-        version: 2.2.2(@types/react@19.1.14)
+        version: 2.2.2(@types/react@19.1.15)
       sort-package-json:
         specifier: 3.4.0
         version: 3.4.0
@@ -784,8 +784,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.1.14':
-    resolution: {integrity: sha512-ukd93VGzaNPMAUPy0gRDSC57UuQbnH9Kussp7HBjM06YFi9uZTFhOvMSO2OKqXm1rSgzOE+pVx1k1PYHGwlc8Q==}
+  '@types/react@19.1.15':
+    resolution: {integrity: sha512-+kLxJpaJzXybyDyFXYADyP1cznTO8HSuBpenGlnKOAkH4hyNINiywvXS/tGJhsrGGP/gM185RA3xpjY0Yg4erA==}
 
   '@types/stylis@4.2.0':
     resolution: {integrity: sha512-n4sx2bqL0mW1tvDf/loQ+aMX7GQD3lc3fkCMC55VFNDu/vBOabO+LTIeXKM14xK0ppk5TUGcWRjiSpIlUpghKw==}
@@ -3827,11 +3827,11 @@ snapshots:
 
   '@types/parse-json@4.0.2': {}
 
-  '@types/react-dom@19.1.9(@types/react@19.1.14)':
+  '@types/react-dom@19.1.9(@types/react@19.1.15)':
     dependencies:
-      '@types/react': 19.1.14
+      '@types/react': 19.1.15
 
-  '@types/react@19.1.14':
+  '@types/react@19.1.15':
     dependencies:
       csstype: 3.1.2
 
@@ -5953,9 +5953,9 @@ snapshots:
 
   react-error-overlay@6.0.9: {}
 
-  react-polymorphed@2.2.2(@types/react@19.1.14):
+  react-polymorphed@2.2.2(@types/react@19.1.15):
     dependencies:
-      '@types/react': 19.1.14
+      '@types/react': 19.1.15
 
   react-refresh@0.12.0: {}
 
