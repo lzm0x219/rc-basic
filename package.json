@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@babel/preset-react": "7.27.1",
-    "@biomejs/biome": "2.2.5",
+    "@biomejs/biome": "2.2.6",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.1",
     "father": "4.6.7",
