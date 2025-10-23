@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@babel/preset-react':
-        specifier: 7.27.1
-        version: 7.27.1(@babel/core@7.23.5)
+        specifier: 7.28.5
+        version: 7.28.5(@babel/core@7.23.5)
       '@biomejs/biome':
         specifier: 2.2.7
         version: 2.2.7
@@ -139,8 +139,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
 
-  '@babel/plugin-transform-react-display-name@7.27.1':
-    resolution: {integrity: sha512-p9+Vl3yuHPmkirRrg021XiP+EETmPMQTLr6Ayjj85RLNEbb3Eya/4VI0vAdzQG9SEAl2Lnt7fy5lZyMzjYoZQQ==}
+  '@babel/plugin-transform-react-display-name@7.28.0':
+    resolution: {integrity: sha512-D6Eujc2zMxKjfa4Zxl4GHMsmhKKZ9VpcqIchJLvwTxad9zWIYulwYItBovpDOoNLISpcZSXoDJ5gaGbQUDqViA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -163,8 +163,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
 
-  '@babel/preset-react@7.27.1':
-    resolution: {integrity: sha512-oJHWh2gLhU9dW9HHr42q0cI0/iHHXTLGe39qvpAZZzagHy0MzYLCnCVV0symeRvzmjHyVU7mw2K06E6u/JwbhA==}
+  '@babel/preset-react@7.28.5':
+    resolution: {integrity: sha512-Z3J8vhRq7CeLjdC58jLv4lnZ5RKFUJWqH5emvxmv9Hv3BD1T9R/Im713R4MTKwvFaV74ejZ3sM01LyEKk4ugNQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -3290,7 +3290,7 @@ snapshots:
       '@babel/core': 7.23.5
       '@babel/helper-plugin-utils': 7.27.1
 
-  '@babel/plugin-transform-react-display-name@7.27.1(@babel/core@7.23.5)':
+  '@babel/plugin-transform-react-display-name@7.28.0(@babel/core@7.23.5)':
     dependencies:
       '@babel/core': 7.23.5
       '@babel/helper-plugin-utils': 7.27.1
@@ -3319,12 +3319,12 @@ snapshots:
       '@babel/helper-annotate-as-pure': 7.27.1
       '@babel/helper-plugin-utils': 7.27.1
 
-  '@babel/preset-react@7.27.1(@babel/core@7.23.5)':
+  '@babel/preset-react@7.28.5(@babel/core@7.23.5)':
     dependencies:
       '@babel/core': 7.23.5
       '@babel/helper-plugin-utils': 7.27.1
       '@babel/helper-validator-option': 7.27.1
-      '@babel/plugin-transform-react-display-name': 7.27.1(@babel/core@7.23.5)
+      '@babel/plugin-transform-react-display-name': 7.28.0(@babel/core@7.23.5)
       '@babel/plugin-transform-react-jsx': 7.27.1(@babel/core@7.23.5)
       '@babel/plugin-transform-react-jsx-development': 7.27.1(@babel/core@7.23.5)
       '@babel/plugin-transform-react-pure-annotations': 7.27.1(@babel/core@7.23.5)
