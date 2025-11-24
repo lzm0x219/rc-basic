@@ -15,11 +15,11 @@ importers:
         specifier: 2.3.7
         version: 2.3.7
       '@types/react':
-        specifier: 19.2.6
-        version: 19.2.6
+        specifier: 19.2.7
+        version: 19.2.7
       '@types/react-dom':
         specifier: 19.2.3
-        version: 19.2.3(@types/react@19.2.6)
+        version: 19.2.3(@types/react@19.2.7)
       father:
         specifier: 4.6.7
         version: 4.6.7(@babel/core@7.23.5)(@types/node@20.10.1)(@types/webpack@5.28.5)(styled-components@6.1.8(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(type-fest@3.13.1)(webpack@5.89.0)
@@ -40,7 +40,7 @@ importers:
         version: 19.2.0(react@19.2.0)
       react-polymorphed:
         specifier: 2.2.2
-        version: 2.2.2(@types/react@19.2.6)
+        version: 2.2.2(@types/react@19.2.7)
       sort-package-json:
         specifier: 3.4.0
         version: 3.4.0
@@ -784,8 +784,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.6':
-    resolution: {integrity: sha512-p/jUvulfgU7oKtj6Xpk8cA2Y1xKTtICGpJYeJXz2YVO2UcvjQgeRMLDGfDeqeRW2Ta+0QNFwcc8X3GH8SxZz6w==}
+  '@types/react@19.2.7':
+    resolution: {integrity: sha512-MWtvHrGZLFttgeEj28VXHxpmwYbor/ATPYbBfSFZEIRK0ecCFLl2Qo55z52Hss+UV9CRN7trSeq1zbgx7YDWWg==}
 
   '@types/stylis@4.2.0':
     resolution: {integrity: sha512-n4sx2bqL0mW1tvDf/loQ+aMX7GQD3lc3fkCMC55VFNDu/vBOabO+LTIeXKM14xK0ppk5TUGcWRjiSpIlUpghKw==}
@@ -3830,11 +3830,11 @@ snapshots:
 
   '@types/parse-json@4.0.2': {}
 
-  '@types/react-dom@19.2.3(@types/react@19.2.6)':
+  '@types/react-dom@19.2.3(@types/react@19.2.7)':
     dependencies:
-      '@types/react': 19.2.6
+      '@types/react': 19.2.7
 
-  '@types/react@19.2.6':
+  '@types/react@19.2.7':
     dependencies:
       csstype: 3.2.3
 
@@ -5958,9 +5958,9 @@ snapshots:
 
   react-error-overlay@6.0.9: {}
 
-  react-polymorphed@2.2.2(@types/react@19.2.6):
+  react-polymorphed@2.2.2(@types/react@19.2.7):
     dependencies:
-      '@types/react': 19.2.6
+      '@types/react': 19.2.7
 
   react-refresh@0.12.0: {}
 
