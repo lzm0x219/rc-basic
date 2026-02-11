@@ -15,11 +15,11 @@ importers:
         specifier: 2.3.14
         version: 2.3.14
       '@types/react':
-        specifier: 19.2.13
-        version: 19.2.13
+        specifier: 19.2.14
+        version: 19.2.14
       '@types/react-dom':
         specifier: 19.2.3
-        version: 19.2.3(@types/react@19.2.13)
+        version: 19.2.3(@types/react@19.2.14)
       father:
         specifier: 4.6.13
         version: 4.6.13(@babel/core@7.23.5)(@types/node@20.10.1)(@types/webpack@5.28.5)(less-loader@12.3.0(less@4.3.0)(webpack@5.89.0))(less@4.3.0)(postcss@8.4.31)(resolve-url-loader@5.0.0)(sass-loader@13.3.3(sass@1.54.0)(webpack@5.89.0))(sass@1.54.0)(styled-components@6.1.8(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(type-fest@3.13.1)(webpack@5.89.0)
@@ -40,7 +40,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       react-polymorphed:
         specifier: 2.2.2
-        version: 2.2.2(@types/react@19.2.13)
+        version: 2.2.2(@types/react@19.2.14)
       sort-package-json:
         specifier: 3.6.1
         version: 3.6.1
@@ -788,8 +788,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.13':
-    resolution: {integrity: sha512-KkiJeU6VbYbUOp5ITMIc7kBfqlYkKA5KhEHVrGMmUUMt7NeaZg65ojdPk+FtNrBAOXNVM5QM72jnADjM+XVRAQ==}
+  '@types/react@19.2.14':
+    resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
 
   '@types/stylis@4.2.0':
     resolution: {integrity: sha512-n4sx2bqL0mW1tvDf/loQ+aMX7GQD3lc3fkCMC55VFNDu/vBOabO+LTIeXKM14xK0ppk5TUGcWRjiSpIlUpghKw==}
@@ -3904,11 +3904,11 @@ snapshots:
 
   '@types/parse-json@4.0.2': {}
 
-  '@types/react-dom@19.2.3(@types/react@19.2.13)':
+  '@types/react-dom@19.2.3(@types/react@19.2.14)':
     dependencies:
-      '@types/react': 19.2.13
+      '@types/react': 19.2.14
 
-  '@types/react@19.2.13':
+  '@types/react@19.2.14':
     dependencies:
       csstype: 3.2.3
 
@@ -6069,9 +6069,9 @@ snapshots:
 
   react-error-overlay@6.0.9: {}
 
-  react-polymorphed@2.2.2(@types/react@19.2.13):
+  react-polymorphed@2.2.2(@types/react@19.2.14):
     dependencies:
-      '@types/react': 19.2.13
+      '@types/react': 19.2.14
 
   react-refresh@0.14.0: {}
 
