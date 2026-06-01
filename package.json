@@ -45,14 +45,14 @@
   "devDependencies": {
     "@babel/preset-react": "7.29.7",
     "@biomejs/biome": "2.4.16",
-    "@types/react": "19.2.15",
+    "@types/react": "19.2.16",
     "@types/react-dom": "19.2.3",
     "father": "4.6.21",
     "husky": "9.1.7",
     "is-ci": "4.1.0",
     "lint-staged": "17.0.7",
     "react": "19.2.6",
-    "react-dom": "19.2.6",
+    "react-dom": "19.2.7",
     "react-polymorphed": "2.2.2",
     "sort-package-json": "3.6.1",
     "typescript": "6.0.3"
