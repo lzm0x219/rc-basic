@@ -42,8 +42,8 @@ importers:
         specifier: 2.2.2
         version: 2.2.2(@types/react@19.2.16)
       sort-package-json:
-        specifier: 3.7.0
-        version: 3.7.0
+        specifier: 3.7.1
+        version: 3.7.1
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -3024,9 +3024,9 @@ packages:
   sort-object-keys@2.0.1:
     resolution: {integrity: sha512-R89fO+z3x7hiKPXX5P0qim+ge6Y60AjtlW+QQpRozrrNcR1lw9Pkpm5MLB56HoNvdcLHL4wbpq16OcvGpEDJIg==}
 
-  sort-package-json@3.7.0:
-    resolution: {integrity: sha512-/Xx1zmdiImiBNKox5E4r9QTV/KuqycvtokxouII9Wd4TQcsIzs2PsXr8hJyS4QyA8iAtBTsEJXMSsy9Z42Z7aw==}
-    engines: {node: '>=22'}
+  sort-package-json@3.7.1:
+    resolution: {integrity: sha512-ssk1HG7whF8N/T1IsNAQrtHG5Cbdi0rAgRJZXYBr9hF5xaHnBNzUx/W6LcthEW7FhOwvZssbESZuO+GxssqAyA==}
+    engines: {node: '>=20'}
     hasBin: true
 
   source-map-js@1.0.2:
@@ -6624,7 +6624,7 @@ snapshots:
 
   sort-object-keys@2.0.1: {}
 
-  sort-package-json@3.7.0:
+  sort-package-json@3.7.1:
     dependencies:
       detect-indent: 7.0.2
       detect-newline: 4.0.1
