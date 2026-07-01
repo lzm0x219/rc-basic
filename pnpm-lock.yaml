@@ -21,8 +21,8 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(@types/react@19.2.17)
       father:
-        specifier: 4.6.24
-        version: 4.6.24(@babel/core@7.23.5)(@types/node@25.9.1)(less-loader@12.3.0(less@4.3.0)(webpack@5.89.0(postcss@8.4.31)))(less@4.3.0)(postcss@8.4.31)(resolve-url-loader@5.0.0)(sass-loader@13.3.3(sass@1.54.0)(webpack@5.89.0(postcss@8.4.31)))(sass@1.54.0)(styled-components@6.1.8(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(styled-jsx@5.1.7(@babel/core@7.23.5)(react@19.2.7))(webpack@5.89.0(postcss@8.4.31))
+        specifier: 4.6.25
+        version: 4.6.25(@babel/core@7.23.5)(@types/node@25.9.1)(less-loader@12.3.0(less@4.3.0)(webpack@5.89.0(postcss@8.4.31)))(less@4.3.0)(postcss@8.4.31)(resolve-url-loader@5.0.0)(sass-loader@13.3.3(sass@1.54.0)(webpack@5.89.0(postcss@8.4.31)))(sass@1.54.0)(styled-components@6.1.8(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(styled-jsx@5.1.7(@babel/core@7.23.5)(react@19.2.7))(webpack@5.89.0(postcss@8.4.31))
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -1708,8 +1708,8 @@ packages:
   fastq@1.15.0:
     resolution: {integrity: sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==}
 
-  father@4.6.24:
-    resolution: {integrity: sha512-HFwpyRFDdayI6YvdEj1WaZKVObD6oBOKAwwStKjpvNPVXKIBv8IADxfJhzPZZOfCUr19K1fUfTJxeDsBIxZbcg==}
+  father@4.6.25:
+    resolution: {integrity: sha512-erGv86bLzwNSvcGpkjWORB8526Gpye04LPr8hB/lF6MnPALhSYP6mr4rf9ULVGMUPx1/GuhSmlxNg+d1Empaig==}
     hasBin: true
 
   fdir@6.5.0:
@@ -5173,7 +5173,7 @@ snapshots:
     dependencies:
       reusify: 1.0.4
 
-  father@4.6.24(@babel/core@7.23.5)(@types/node@25.9.1)(less-loader@12.3.0(less@4.3.0)(webpack@5.89.0(postcss@8.4.31)))(less@4.3.0)(postcss@8.4.31)(resolve-url-loader@5.0.0)(sass-loader@13.3.3(sass@1.54.0)(webpack@5.89.0(postcss@8.4.31)))(sass@1.54.0)(styled-components@6.1.8(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(styled-jsx@5.1.7(@babel/core@7.23.5)(react@19.2.7))(webpack@5.89.0(postcss@8.4.31)):
+  father@4.6.25(@babel/core@7.23.5)(@types/node@25.9.1)(less-loader@12.3.0(less@4.3.0)(webpack@5.89.0(postcss@8.4.31)))(less@4.3.0)(postcss@8.4.31)(resolve-url-loader@5.0.0)(sass-loader@13.3.3(sass@1.54.0)(webpack@5.89.0(postcss@8.4.31)))(sass@1.54.0)(styled-components@6.1.8(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(styled-jsx@5.1.7(@babel/core@7.23.5)(react@19.2.7))(webpack@5.89.0(postcss@8.4.31)):
     dependencies:
       '@microsoft/api-extractor': 7.43.7(@types/node@25.9.1)
       '@umijs/babel-preset-umi': 4.6.69
